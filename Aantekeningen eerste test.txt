@@ -1,0 +1,21 @@
+Marijn gebruikt nooit tab toetsen
+Uur van tevoren de trein reserveren
+h,j,k,l toetsen i.p.v. pijltjestoetsen om te bewegen (controls te bedienen)
+pijltjestoetsen en spacebar is vooral om te scrollen
+precieze minuten hebben geen nut
+trein gaat eenmaal in kwartier en halfuur
+niet te kleine knoppen maken
+als je van tevoren weet hoe laat je gaat, dan kan je van tevoren al wat opties (tijden) klaarzetten
+let op uitlijningen
+standaard waarden voor vertrek en aankomst niet hetzelfde zetten.
+vul waardes (placeholders) in die waarschijnlijk al kloppen.
+week vooruitkiezen is genoeg
+absolute en relatieve tijd
+over een uur of twee uur weg. als het langer duurt dan precieze tijd aangeven.
+zowel trackpad als toetsenbord
+Vaste route? eindhoven(woonplaats) - amsterdam(werk)
+als je naar amsterdam gaat, dag van tevoren
+als je naar huis gaat, zo snel mogelijk boeken
+ergens anders dan naar werk? dag van tevoren plannen
+hangt af van de duur van de reis.
+misschien iets anders verzinnen dan heavy metal???
