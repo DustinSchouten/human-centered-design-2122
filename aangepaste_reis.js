@@ -21,7 +21,7 @@ window.onkeydown = function(e) {
         }
     }
     if (keys[e.keyCode] == 'BACKSPACE') {
-        window.location = '../';
+        window.location = 'index.html';
     }
     // if (keys[e.keyCode] == 'ENTER' && navigator_idx == 2) {
     //     switch_vertrek_aankomst()

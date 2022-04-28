@@ -16,7 +16,7 @@ window.onkeydown = function(e) {
         }
     }
     if (keys[e.keyCode] == 'BACKSPACE') {
-        window.location = '../';
+        window.location = 'index.html';
     }
     if (keys[e.keyCode] == 'ENTER') {
         const link_to_navigate = document.querySelector('.selectable[data-id="'+navigator_idx+'"]').href;
