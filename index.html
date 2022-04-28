@@ -5,38 +5,35 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="basics.css">
     </head>
 	<body>
-        <main>
-            <h1>Date and time picker</h1>
-            <section class="container">
-                <section class="subcontainer">
-                    <h2>Date</h2>
-                    <section class="month_slider">
-                        <button class='arrow_button' id="previous_month"><p class="arrow">◀</p></button>
-                        <p id="months_text"></p>
-                        <button class='arrow_button' id="next_month"><p class="arrow">▶</p></button>
-                    </section>
-                    <table class='picker' id="date_picker"></table>
-                </section>
-                <section class="subcontainer">
-                    <h2>Time</h2>
-                    <section class='picker' id="time_picker">
-                        <section class="hours">
-                            <button class='arrow_button' id="hours_up"><p class="arrow">▲</p></button>
-                            <p id="hours_number"></p>
-                            <button class='arrow_button' id="hours_down"><p class="arrow">▼</p></button>
-                        </section>
-                        <p class="dots">:</p>
-                        <section class="minutes">
-                            <button class='arrow_button' id="minutes_up"><p class="arrow">▲</p></button>
-                            <p id="minutes_number"></p>
-                            <button class='arrow_button' id="minutes_down"><p class="arrow">▼</p></button>
-                        </section>
-                    </section>
-                </section>
-            </section>
-        </main>
-        <script src="javascript.js"></script>
+        <img class="ns_logo" src="ns_logo.png" alt="ns_logo">
+        <h1>NS Date picker</h1>
+        <p class="subtitle">Hoi Marijn! Waar gaat de reis naartoe?</p>
+        <section class="home_menu">
+            <a href="van_huis_naar_werk.html" data-id="1" class="selectable button selected">
+                <h3>Van huis naar werk</h3>
+                <div>
+                    <p>Traject: Eindhoven Centraal - Amsterdam Centraal</p>
+                    <p>Vertrek: Morgen vanaf 08:00</p>
+                </div>
+            </a>
+            <a href="van_werk_naar_huis.html" data-id="2" class="selectable button">
+                <h3>Van werk naar huis</h3>
+                <div>
+                    <p>Traject: Amsterdam Centraal - Eindhoven Centraal</p>
+                    <p>Vertrek: Vandaag vanaf <span id="tijd_over_een_uur"></span></p>
+                </div>
+            </a>            
+            <a href="aangepaste_reis.html" data-id="3" class="selectable button">Aangepaste reis</a>
+        </section>
+        <section class="controls_description">
+            <h2>Controls:</h2>
+            <p>Omhoog: <span>K</span></p>
+            <p>Omlaag: <span>J</span></p>
+            <p>Selecteren: <span>ENTER</span></p>
+        </section>
+        <script src="home.js"></script>
 	</body>
 </html>

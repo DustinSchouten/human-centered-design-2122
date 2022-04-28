@@ -1,127 +1,43 @@
-* {
-    padding: 0;
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-}
-
-body {
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(135deg, #efefef 0%, #c7c6c6 100%);
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-}
-
-main {
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px;
-    box-shadow: 8px 8px 0px 0px rgba(50,50,50,0.4);
+.home_menu {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10px;
-}
-
-.subcontainer {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
-h1 {
+.home_menu h2 {
+    color: white;
     text-align: center;
 }
 
-h2 {
-    margin-bottom: 5px;
+.home_menu .button {
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    padding: 20px;
     text-align: center;
-}
-
-.month_slider {
-    display: flex;
-    justify-content: space-between;
-}
-
-.arrow_button  {
-    width: 85px;
-    height: 40px;
-    background-color: #c3e6f1;
+    background-color: rgba(255,255,255,0.3);
     border: 1px solid white;
-    margin-bottom: 5px;
-    position: relative;
+    border-radius: 5px;
 }
 
-.arrow {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-size: 20px;
+.home_menu .button div {
+    text-align: left;
+    margin-top: 5px;
 }
 
-.month_slider p {
-    display: flex;
-    align-items: center;
-    height: 40px;
+.home_menu .button div p {
+    font-weight: lighter;
 }
 
-th,td {
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    position: relative;
-    background-color: #c3e6f1;
+.selected {
+    color: #003082 !important;
+    background-color: #FFC917 !important;
 }
 
-#date_picker input,#date_picker label {
-    width: 35px;
-    height: 35px;
-    -webkit-appearance: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    line-height: 35px;
-}
-
-
-input[type="radio"]:checked {
-    background-color: #80a2ae;
-}
-
-input[type="radio"]:focus,button:focus {
-    outline: 3px solid #213941;
-}
-
-input[type="radio"]:active,button:active {
-    background-color: #80a2ae;
-}
-
-.empty {
-    background-color: #e2f0f4;
-}
-
-#time_picker {
-    display: flex;
-}
-
-#time_picker p:not(.arrow) {
-    font-size: 3em;
-    text-align: center;
-    margin-bottom: 5px;
-}
-
-.dots {
-    display: flex;
-    align-items: center;
-    padding-bottom: 10px;
+#tijd_over_een_uur {
+    font-weight: lighter;
 }

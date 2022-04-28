@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+	<body>
+        <main>
+            <h1>Date and time picker</h1>
+            <section class="container">
+                <section class="subcontainer">
+                    <h2>Date</h2>
+                    <section class="month_slider">
+                        <button class='arrow_button' id="previous_month"><p class="arrow">◀</p></button>
+                        <p id="months_text"></p>
+                        <button class='arrow_button' id="next_month"><p class="arrow">▶</p></button>
+                    </section>
+                    <table class='picker' id="date_picker"></table>
+                </section>
+                <section class="subcontainer">
+                    <h2>Time</h2>
+                    <section class='picker' id="time_picker">
+                        <section class="hours">
+                            <button class='arrow_button' id="hours_up"><p class="arrow">▲</p></button>
+                            <p id="hours_number"></p>
+                            <button class='arrow_button' id="hours_down"><p class="arrow">▼</p></button>
+                        </section>
+                        <p class="dots">:</p>
+                        <section class="minutes">
+                            <button class='arrow_button' id="minutes_up"><p class="arrow">▲</p></button>
+                            <p id="minutes_number"></p>
+                            <button class='arrow_button' id="minutes_down"><p class="arrow">▼</p></button>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </main>
+        <script src="javascript.js"></script>
+	</body>
+</html>
