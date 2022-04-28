@@ -17,7 +17,12 @@ window.onkeydown = function(e) {
     }
     if (keys[e.keyCode] == 'ENTER') {
         const link_to_navigate = document.querySelector('.selectable[data-id="'+navigator_idx+'"]').href;
-        window.location = link_to_navigate;
+        if (navigator_idx == 2) {
+            alert('Pagina nog niet gemaakt')
+        }
+        else {
+            window.location = link_to_navigate;
+        }
     }
     document.querySelector('.selectable[data-id="'+navigator_idx+'"]').classList.add('selected');
 }
