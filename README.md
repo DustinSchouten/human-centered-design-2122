@@ -1,5 +1,8 @@
 # Date picker voor Marijn Meijles
-Dit project bestaat uit een interactieve toepassing die speciaal is ontworpen en ontwikkeld voor Marijn Meijles. Het betreft een date picker waarmee Marijn van tevoren kan aangeven welke trein hij wil nemen zodat er iemand is om hem te helpen met zijn rolstoel. Bij dit project is speciaal gelet op de beperkingen én interesses van Marijn.
+Dit project bestaat uit een interactieve toepassing die speciaal is ontworpen en ontwikkeld voor Marijn Meijles. Het betreft een date picker waarmee Marijn van tevoren kan aangeven welke trein hij wil nemen zodat er iemand is om hem te helpen met zijn rolstoel. Bij dit project is speciaal gelet op de beperkingen én interesses van Marijn. Bij dit project is enkel gebruikgemaakt van HTML, CSS en JavaScript.
+
+## Wie is Marijn?
+text
 
 ## Verslaglegging van de tests
 ### Eerste testmoment
