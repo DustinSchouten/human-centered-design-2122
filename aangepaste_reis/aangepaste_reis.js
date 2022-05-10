@@ -157,20 +157,23 @@ function updateTreinOpties() {
     let minuten_value = parseInt(document.querySelector('#minuten').value);
     let treinopties = document.querySelector('.travel_options');
     treinopties.style.display = 'flex';
-    
-    document.querySelector('.datum_tijd_field').style.display = 'inherit';
-    document.querySelector('h1').style.display = 'inherit';
-    document.querySelector('img').style.display = 'inherit';
-    document.querySelector('.subtitle').style.display = 'inherit';
-    document.querySelector('.controls_description').style.display = 'inherit';
+    treinopties.classList.remove('invisible');
+
+    document.querySelector('.datum_tijd_field').classList.remove('invisible');
+    document.querySelector('h1').classList.remove('invisible');
+    document.querySelector('img').classList.remove('invisible');
+    document.querySelector('.subtitle').classList.remove('invisible');
+    document.querySelector('.controls_description').classList.remove('invisible');
+    document.querySelector('body').style.backgroundImage = 'url(../heavy_metal_bg.jpg)';
 
     if (vertrek_value == aankomst_value) {
-        treinopties.style.display = 'none';
-        document.querySelector('.datum_tijd_field').style.display = 'none';
-        document.querySelector('h1').style.display = 'none';
-        document.querySelector('img').style.display = 'none';
-        document.querySelector('.subtitle').style.display = 'none';
-        document.querySelector('.controls_description').style.display = 'none';
+        treinopties.classList.add('invisible');
+        document.querySelector('body').style.backgroundImage = 'url(../bug_found_bg.jpg)';
+        document.querySelector('.datum_tijd_field').classList.add('invisible');
+        document.querySelector('h1').classList.add('invisible');
+        document.querySelector('img').classList.add('invisible');
+        document.querySelector('.subtitle').classList.add('invisible');
+        document.querySelector('.controls_description').classList.add('invisible');
     }
 
     for (let idx=0; idx<6; idx++) {

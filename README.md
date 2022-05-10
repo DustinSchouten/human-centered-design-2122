@@ -1,8 +1,9 @@
 # Date picker voor Marijn Meijles
 Dit project bestaat uit een interactieve toepassing die speciaal is ontworpen en ontwikkeld voor Marijn Meijles. Het betreft een date picker waarmee Marijn van tevoren kan aangeven welke trein hij wil nemen zodat er iemand is om hem te helpen met zijn rolstoel. Bij dit project is speciaal gelet op de beperkingen én interesses van Marijn.
 
-## Eerste testmoment
-### Aannames vooraf
+## Verslaglegging van de tests
+### Eerste testmoment
+#### Aannames vooraf
 Voorafgaand aan de ontmoeting en de test met Marijn was er weinig achtergrondinformatie beschikbaar. In de beschrijving stond dat Marijn veel moeite heeft met fijne motoriek, dat hij daardoor zijn toetsenbord gebruikt om te navigeren en dat hij Sticky Keys aan heeft staan. Een aanname die ik hierdoor maakte, was dat hij de tab-toets en de pijltjestoetsen gebruikte om door elementen over een webpagina te navigeren. Ook nam ik aan dat Marijn niet de muis kon gebruiken.
 
 Verder stond in de beschrijving enkel dat Marijn een date picker wilde hebben waarin hij kan aangeven welke trein hij wil nemen. De aanname die ik hierbij deed was dat hij een datum en een tijd wilde invoeren en dat hij die aan zijn helper kon doorgeven.
@@ -10,10 +11,10 @@ Verder stond in de beschrijving enkel dat Marijn een date picker wilde hebben wa
 Op basis van deze aannames en de beschikbare informatie besloot ik een date picker te maken waarmee je met de tab-toets, pijltjestoetsen en de spatiebalk de elementen kon bedienen. Zie de screenshot hieronder:
 ![](projectbeschrijving_images/screenshot_eerste_test_1.png)
 
-### Bevindingen tijdens de ontmoeting en de test
+#### Bevindingen tijdens de ontmoeting en de test
 Op donderdag 21 april hadden wij de eerste ontmoeting met Marijn vanuit Eindhoven. Al snel bleek dat ik zijn motorische beperking een beetje had onderschat. Marijn heeft veel moeite om zich verstaanbaar te maken en wanneer hij zijn toetsenbord gebruikt, drukt hij soms ook per ongeluk de verkeerde toets in. Verder heb ik tijdens de ontmoeting de volgende bevindingen gedaan:
 
-#### Over hoe Marijn interacteert met een computer
+##### Over hoe Marijn interacteert met een computer
 - Marijn gebruikt vooral toetsen die dicht bij elkaar staan. Het woord 'ALS' is bijvoorbeeld lastig om te typen omdat de letter A helemaal links van het toetsenbord is, de L helemaal rechts en de S weer helemaal links.
 - Marijn geeft aan nooit gebruik te maken van de tab-toets.
 - In plaats van de pijltjestietsen gebruikt Marijn de H (naar links), J (naar beneden), K (naar boven) en L (naar rechts) om te bewegen (de controls te bedienen).
@@ -21,7 +22,7 @@ Op donderdag 21 april hadden wij de eerste ontmoeting met Marijn vanuit Eindhove
 - Marijn kan zowel een toetsenbord als een trackpad gebruiken.
 - Wanneer Marijn zijn toetsenbord gebruikt, kijkt hij naar zijn toetsenbord en niet naar het scherm.
 
-#### Over de wensen en eisen van Marijn
+##### Over de wensen en eisen van Marijn
 - Marijn moet altijd een uur van tevoren de trein reserveren. 
 - Zijn vaste route is van Eindhoven (woonplaats) naar Amsterdam (werk). Als hij de trein naar Amsterdam neemt, moet hij die de dag van tevoren plannen. Als hij weer terug naar Eindhoven gaat, wil Marijn die zo snel mogelijk kunnen nemen. Dit geldt ook voor als Marijn ergens anders dan naar zijn werk gaat.
 - Zijn trein gaat eenmaal in het kwartier.
@@ -30,15 +31,15 @@ Op donderdag 21 april hadden wij de eerste ontmoeting met Marijn vanuit Eindhove
 - Marijn vindt het voldoende als hij een week vooruit kan plannen.
 - Marijn is een groot fan van Heavy Metal.
 
-### De test-opzet
+#### De test-opzet
 Vasilis is naar Marijn's huis gegaan en heeft een online vergadering met de studenten gestart. Hij heeft de camera van zijn laptop vervolgens gericht op het toetsenbord van Marijn's laptop, waardoor we konden zien hoe hij omgaat met zijn computer. Vervolgens hebben alle studenten één voor één hun gemaakte werk laten zien en een korte uitleg gegeven over het hoe en waarom. Verder hebben de studenten Marijn vooral zelf ons prototype laten testen. Wanneer Marijn feedback gaf over een prototype, vertaalde Vasilis wat hij duidelijk wilt maken. Deze manier van testen is prima verlopen.
 
-### Plannen voor volgende week
+#### Plannen voor volgende week
 Voor komende week ga ik proberen om mijn eerder gemaakte date-picker, die uiteindelijk iets te algemeen bevonden werd, nog meer in te richten op de behoeften van Marijn. Ik had bijvoorbeeld een soort kalender gemaakt die achteraf helemaal niet nodig bleek te zijn. Ook gaf Marijn aan dat het weinig nut heeft om, als hij zo snel mogelijk een trein wilt nemen, tot op de minuut exact aan te kunnen geven hoe laat er een trein vertrekt. In plaats daarvan kwam al snel naar voren dat het handiger is om een aantal reisopties te geven.
 
 Tijdens de tests van de andere studenten werd ook duidelijk dat Marijn soms per ongeluk de verkeerde toets indrukt. Daarom vond ik het een goed idee om het aantal benodigde interacties te beperken.
 
-## Tweede testmoment
+### Tweede testmoment
 Voor het tweede testmoment heb ik geprobeerd om zoveel mogelijk rekening te houden met de voorkeuren én interesses van Marijn. Ik heb een home-menu gemaakt waarin Marijn kan kiezen tussen drie opties: 'Van huis naar werk', 'Van werk naar huis' en 'Aangepaste reis'. Dit heb ik gedaan omdat de bovenste twee opties veelvuldig door Marijn gebruikt zouden worden, waardoor Marijn vanaf het home-menu direct een aantal reisopties te zien krijgt die aansluiten bij zijn situatie. Hierbij bedoel ik dat, afhankelijk van welke optie Marijn kiest, hij altijd reisopties van over een uur of vanaf de volgende dag te zien krijgt. Zie de onderstaande twee screenshots:
 
 Home menu:
@@ -54,7 +55,7 @@ Op het gebied van interactie gaf Marijn aan dat hij gebruikmaakte van de hjkl-to
 
 Verder heb ik, om op de interesses van Marijn in te spelen, een achtergrondafbeelding van heavy metal toegevoegd.
 
-### Bevindingen tijdens de ontmoeting en de test
+#### Bevindingen tijdens de ontmoeting en de test
 Op donderdag 28 april hadden wij de tweede ontmoeting met Marijn. Deze test verliep voor mijn gevoel niet helemaal goed. Ik had erg veel moeite met het verstaan van Marijn doordat er dit keer niemand was die als tolk fungeerde. Daarom heb ik voor mijn gevoel ook weinig feedback kunnen krijgen waarmee ik met de derde test verder kon gaan.
 
 Hieronder heb ik alle bevindingen genoteerd die ik mij tijdens de testen van alle prototypes zijn opgevallen:
@@ -68,15 +69,21 @@ Over mijn prototype kreeg ik de volgende schaarse feedback:
 - Marijn vond mijn werk er mooi uitzien, maar zei wel dat ik bepaalde pagina's nog moest afmaken.
 - Op zijn laptop werkte de ENTER toets niet bij 'Aangepaste reis' bij een paar invoervelden. Dit bleek achteraf makkelijk opgelost te worden.
 
-### De test-opzet
+#### De test-opzet
 Zoals ik al zei was er geen tolk waardoor de studenten moeite hadden met het verstaan van Marijn. Verder verliep het testen eigenlijk hetzelfde als bij de vorige test: de studenten vertelden in het kort wat zij hadden gemaakt en verder lieten wij Marijn op zijn eigen laptop de prototypes testen. De test was ditmaal niet online maar op school.
 
-### Plannen voor volgende week
+#### Plannen voor volgende week
 Voor de aankomende week ben ik logischerwijs van plan om mijn webapplicatie wat verder uit te werken, op basis van de informatie die ik bij het tweede testmoment heb verkregen. Verder ga ik proberen om wat 'nonsense' toe te voegen om het design voor Marijn wat aantrekkelijker te maken. Hierbij dacht ik eraan om misschien een animatie van een rijdende trein te maken op het moment dat Marijn klaar is met het selecteren van een optie.
 
-## Derde testmoment
+### Derde testmoment
+Voor het derde en laatste testmoment heb ik nog meer de identiteit van Marijn naar voren laten komen. In de vorige test kwam ik erachter dat Marijn van bier en van boeken houdt. Hierbij onstond gelijk bij mij het idee om vallende bierflesjes te tonen als Marijn klaar is met het selecteren van een reisoptie. Zie de screenshot hieronder:
+![](projectbeschrijving_images/screenshot_derde_test_1.png)
 
+Verder kwamen wij studenten erachter dat Marijn het helemaal leuk vind om bij ieder project te zoeken naar manieren om de website 'stuk te maken'. Hiermee bedoel ik dat Marijn als echte nerdy developer probeert om 'bugs' te vinden in ieders website. Om hierop in te spelen heb ik ervoor gezorgd dat, zodra Marijn bij de pagina 'aangepaste reis' bij de invoervelden 'Vertrek' en 'Aankomst' hetzelfde treinstation invoert, er een bug verschijnt. Alle content op de pagina wordt verwijderd, behalve de twee invoervelden en de achtergrond verandert in een heftigere heavy metal. Zie de screenshot hieronder:
+![](projectbeschrijving_images/screenshot_derde_test_2.png)
 
+#### Bevindingen tijdens de ontmoeting en de test
+#### De test-opzet
 
 
 ## Conclusie manier van testen
@@ -97,7 +104,7 @@ Doordat je hier slechts voor één specifiek persoon een website ontwikkelt, hoe
 
 - Doordat Marijn deze toepassing altijd op zijn laptop op een groot scherm gebruikt, is het niet nodig om de website responsive te maken voor kleinere schermen.
 
-- Dit onderwerp valt een beetje samen met add nonsense, maar Marijn vindt het erg leuk om bugs op te sporen. Daarom heb ik expres een zogenaamde bug 'verstopt' (wel makkelijk te vinden) bij de pagina 'aangepaste reis'. Als Marijn bij 'vertrek' en 'aankomst' hetzelfde treinstation invoert, verdwijnt alle content op de pagina behalve deze twee invoervelden. Bij 'normale' gebruikers is het een goede gewoonte om gewoon een duidelijke foutmelding te geven.
+- Dit onderwerp valt een beetje samen met add nonsense, maar zoals ik al eerder noemde, vindt Marijn het erg leuk om bugs op te sporen. Daarom heb ik expres een zogenaamde bug 'verstopt' (wel makkelijk te vinden) bij de pagina 'aangepaste reis'. Bij 'normale' gebruikers is het een goede gewoonte om gewoon een duidelijke foutmelding te geven.
 
 ### Add nonsense 
 Ik had eerst het idee om een animatie van een rijdende trein te laten afspelen op het moment dat Marijn een reisoptie heeft gekozen. Later dacht ik dat dit wellicht toch iets te weinig met de interesses van Marijn te maken had en ook een beetje kinderachtig was.
@@ -105,3 +112,4 @@ Tijdens de eerste twee tests kwam naar voren dat Marijn van bier en van boeken h
 
 ## Bronnen
 - https://wallpaper.dog/metal
+- https://wall.alphacoders.com/by_sub_category.php?id=173488&name=Heavy+Metal+Wallpapers&lang=German
