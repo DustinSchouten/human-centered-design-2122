@@ -3,6 +3,10 @@ const keys = {13:'ENTER', 74:'J', 75:'K'};
 const aantal_knoppen = document.querySelectorAll('.selectable').length;
 let navigator_idx = 1;
 
+window.addEventListener('click',function() {
+    document.querySelector('.selectable[data-id="'+navigator_idx+'"]').focus()
+})
+
 window.onkeydown = function(e) {
     document.querySelector('.selectable[data-id="'+navigator_idx+'"]').classList.remove('selected');
     if (keys[e.keyCode] == 'K') {
@@ -17,14 +21,19 @@ window.onkeydown = function(e) {
     }
     if (keys[e.keyCode] == 'ENTER') {
         const link_to_navigate = document.querySelector('.selectable[data-id="'+navigator_idx+'"]').href;
-        if (navigator_idx == 2) {
-            alert('Pagina nog niet gemaakt')
-        }
-        else {
-            window.location = link_to_navigate;
-        }
+        window.location = link_to_navigate;
     }
     document.querySelector('.selectable[data-id="'+navigator_idx+'"]').classList.add('selected');
+
+    if (typeof(window.scrollY) != 'undefined') { // Check for support
+        window.scroll({
+            top: document.querySelector('.selectable[data-id="'+navigator_idx+'"]').getBoundingClientRect().top + window.scrollY - 225,
+            behavior: 'smooth'
+        });
+    }
+    else {
+        window.scrollTo({ top: document.querySelector('.selectable[data-id="'+navigator_idx+'"]').offsetTop - 225, behavior: 'smooth'});
+    }
 }
 
 let current_time_vertrek = new Date();

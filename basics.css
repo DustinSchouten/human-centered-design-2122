@@ -49,6 +49,7 @@ body::-webkit-scrollbar-thumb {
 .ns_logo {
     width: 100px;
     margin: 40px;
+    position: fixed;
 }
 
 h1 {
@@ -73,12 +74,26 @@ h1 {
     transform: translateX(-50%);
 }
 
+.selectable {
+    cursor: pointer;
+}
+
+.selectable {
+    transition: 0.2s all ease;
+}
+
+.selectable:hover {
+    transform: scale(1.05);
+}
+
 .selected {
+    outline: 4px solid #003082;
     color: #003082 !important;
     background-color: #FFC917 !important;
 }
 
 .controls_description {
+    width: 300px;
     border: 1px solid white;
     border-radius: 5px;
     position: fixed;

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../basics.css">
+        <link rel="stylesheet" href="aangepaste_reis.css">
+    </head>
+	<body>
+        <img class="ns_logo" src="../ns_logo.png" alt="ns_logo">
+        <h1>NS Date picker</h1>
+        <p class="subtitle">Aangepaste reis</p>
+        <section class="invoerveld">
+            <section class="vertrek_aankomst_field">
+                <div>
+                    <label for="vertrek">Vertrek</label>
+                    <select id="vertrek" name="vertrek" data-id="1" class='selectable selected'></select>
+                </div>
+                <div>
+                    <label for="aankomst">Aankomst</label>
+                    <select id="aankomst" name="aankomst" data-id="2" class='selectable'></select>
+                </div>
+            </section>
+            <section class="datum_tijd_field">
+                <div>
+                    <label for="datum">Datum</label>
+                    <select id="datum" name="datum" data-id="3" class='selectable'>
+                        <option value="Vandaag" selected>Vandaag</option>
+                        <option value="Morgen">Morgen</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="tijd">Tijd</label>
+                    <section class="tijd_field">
+                        <select id="uren" name="uren" data-id="4" class='selectable'></select>
+                        <p class="dubbele_punt">:</p>
+                        <select id="minuten" name="minuten" data-id="5" class='selectable'></select>
+                    </section>
+                </div>
+            </section>
+        </section>
+        <section class="travel_options">
+            <a data-id="6" class="selectable button">
+                <div>
+                    <p class="datum"></p>
+                    <p class="traject"></p>
+                    <p class="tijd"></p>
+                    <p>Reisduur: 1:20</p>
+                    <p>Perron: 6</p>
+                    <p>Aantal keer overstappen: 0</p>
+                    <p>Treinsoort: IC</p>
+                </div>
+            </a>
+            <a data-id="7" class="selectable button">
+                <div>
+                    <p class="datum"></p>
+                    <p class="traject"></p>
+                    <p class="tijd"></p>
+                    <p>Perron: 6</p>
+                    <p>Aantal keer overstappen: 0</p>
+                    <p>Treinsoort: IC</p>
+                </div>
+            </a>
+            <a data-id="8" class="selectable button">
+                <div>
+                    <p class="datum"></p>
+                    <p class="traject"></p>
+                    <p class="tijd"></p>
+                    <p>Perron: 6</p>
+                    <p>Aantal keer overstappen: 0</p>
+                    <p>Treinsoort: IC</p>
+                </div>
+            </a>
+            <a data-id="9" class="selectable button">
+                <div>
+                    <p class="datum"></p>
+                    <p class="traject"></p>
+                    <p class="tijd"></p>
+                    <p>Perron: 6</p>
+                    <p>Aantal keer overstappen: 0</p>
+                    <p>Treinsoort: IC</p>
+                </div>
+            </a>
+            <a data-id="10" class="selectable button">
+                <div>
+                    <p class="datum"></p>
+                    <p class="traject"></p>
+                    <p class="tijd"></p>
+                    <p>Perron: 6</p>
+                    <p>Aantal keer overstappen: 0</p>
+                    <p>Treinsoort: IC</p>
+                </div>
+            </a>
+            <a data-id="11" class="selectable button">
+                <div>
+                    <p class="datum"></p>
+                    <p class="traject"></p>
+                    <p class="tijd"></p>
+                    <p>Perron: 6</p>
+                    <p>Aantal keer overstappen: 0</p>
+                    <p>Treinsoort: IC</p>
+                </div>
+            </a>
+        </section>
+        <section class="controls_description">
+            <h2>Controls:</h2>
+            <p>Terug naar home: <span>BACKSPACE</span></p>
+            <p>Omhoog: <span>K</span></p>
+            <p>Omlaag: <span>J</span></p>
+            <p>Selecteren: <span>ENTER</span></p>
+            <h2>Bij dropdown menu's:</h2>
+            <p>Omhoog: <span>&#129045;</span></p>
+            <p>Omlaag: <span>&#129047;</span></p>
+            <p>Selecteren: <span>ENTER</span></p>
+        </section>
+        <script src="aangepaste_reis.js"></script>
+	</body>
+</html>

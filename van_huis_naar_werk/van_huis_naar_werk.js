@@ -3,6 +3,26 @@ const keys = {8:'BACKSPACE', 13:'ENTER', 74:'J', 75:'K'};
 const aantal_knoppen = document.querySelectorAll('.selectable').length;
 let navigator_idx = 1;
 
+document.querySelector('.selectable[data-id="1"]').focus() // Default
+
+window.addEventListener('mousedown',function(e) {
+    if (isNaN(e.target.parentNode.parentNode.dataset.id) == false) { // If mouseclick targets on a selectable item;
+        document.querySelector('.selectable[data-id="'+navigator_idx+'"]').classList.remove('selected');
+        navigator_idx = e.target.parentNode.parentNode.dataset.id;
+        document.querySelector('.selectable[data-id="'+navigator_idx+'"]').focus()
+        kies_treinoptie()
+    }
+    document.querySelector('.selectable[data-id="'+navigator_idx+'"]').classList.add('selected');
+})
+
+function kies_treinoptie() {
+    let final_datum = 'Morgen';
+    let final_vertrek = 'Eindhoven Centraal';
+    let final_aankomst = 'Amsterdam Centraal';
+    let final_tijd = document.querySelectorAll('.tijd')[navigator_idx-1].textContent;
+    window.location = '../bedankt/bedankt.html?/datum='+final_datum+'?/vertrek='+final_vertrek+'?/aankomst='+final_aankomst+'?/tijd='+final_tijd;
+}
+
 window.onkeydown = function(e) {    
     document.querySelector('.selectable[data-id="'+navigator_idx+'"]').classList.remove('selected');
     if (keys[e.keyCode] == 'K') {
@@ -16,14 +36,22 @@ window.onkeydown = function(e) {
         }
     }
     if (keys[e.keyCode] == 'BACKSPACE') {
-        window.location = 'index.html';
+        window.location = '../index.html';
     }
     if (keys[e.keyCode] == 'ENTER') {
-        const link_to_navigate = document.querySelector('.selectable[data-id="'+navigator_idx+'"]').href;
-        // window.location = link_to_navigate;
-        alert('Kan nog niet selecteren')
+        kies_treinoptie()
     }
     document.querySelector('.selectable[data-id="'+navigator_idx+'"]').classList.add('selected');
+    
+    if (typeof(window.scrollY) != 'undefined') { // Check for support
+        window.scroll({
+            top: document.querySelector('.selectable[data-id="'+navigator_idx+'"]').getBoundingClientRect().top + window.scrollY - 225,
+            behavior: 'smooth'
+        });
+    }
+    else {
+        window.scrollTo({ top: document.querySelector('.selectable[data-id="'+navigator_idx+'"]').offsetTop - 225, behavior: 'smooth'});
+    }
 }
 
 let current_time_vertrek = new Date();
@@ -36,7 +64,7 @@ current_time_aankomst.setDate(current_time_vertrek.getDate() + 1);
 current_time_aankomst.setHours(8);
 current_time_aankomst.setMinutes(80); // Aankomst is 80 minuten later
 
-for (let idx=0; idx<3; idx++) {
+for (let idx=0; idx<6; idx++) {
     if (idx > 0) {
         current_time_vertrek.setMinutes(current_time_vertrek.getMinutes() + 15);
         current_time_aankomst.setMinutes(current_time_aankomst.getMinutes() + 15);

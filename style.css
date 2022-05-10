@@ -5,6 +5,7 @@
     top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
+    width: 50%;
 }
 
 .home_menu h2 {
