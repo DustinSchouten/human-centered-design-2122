@@ -97,12 +97,16 @@ Voor het derde en laatste testmoment heb ik nog meer de identiteit van Marijn na
 Verder kwamen wij studenten erachter dat Marijn het helemaal leuk vindt om bij ieder project te zoeken naar manieren om de website 'stuk te maken'. Hiermee bedoel ik dat Marijn als echte nerdy developer probeert om 'bugs' te vinden in ieders website. Om hierop in te spelen heb ik ervoor gezorgd dat, zodra Marijn bij de pagina 'aangepaste reis' bij de invoervelden 'Vertrek' en 'Aankomst' hetzelfde treinstation invoert, er een bug verschijnt. Alle content op de pagina wordt verwijderd, behalve de twee invoervelden en de achtergrond verandert in een heftigere heavy metal. Zie de screenshot hieronder:
 ![](projectbeschrijving_images/screenshot_derde_test_2.png)
 
-#### Bevindingen tijdens de ontmoeting en de test
-#### De test-opzet
+#### Bevindingen tijdens de ontmoeting en de test (NOG AFMAKEN)
+Op donderdag 12 mei hadden wij de derde en laatste ontmoeting met Marijn................
 
+In verband met de deadline van dit vak had ik geen tijd meer om de verkregen feedback van Marijn toe te passen. In plaats daarvan heb ik deze feedback omgevormd tot aspecten die ik eventueel in de toekomst zou kunnen maken:
+- 1
+- 2
+- 3
 
-## Conclusie manier van testen
-conclusie
+#### De test-opzet (NOG AFMAKEN)
+tekst...
 
 ## Exclusive Design Principles
 ### Study situation
@@ -126,6 +130,17 @@ Verder vond ik het voor Marijn niet echt noodzakelijk om veel andere aanpassinge
 ### Add nonsense 
 Ik had eerst het idee om een animatie van een rijdende trein te laten afspelen op het moment dat Marijn een reisoptie heeft gekozen. Later dacht ik dat dit wellicht toch iets te weinig met de interesses van Marijn te maken had en ook een beetje kinderachtig was.
 Tijdens de eerste twee tests kwam naar voren dat Marijn van bier en van boeken houdt, en dat hij verder niet veel hobby's heeft doordat Marijn het regelmatig druk heeft. Omdat ik zelf ook van bier houd, leek het me leuk om allemaal vallende bierflesjes te laten zien als Marijn een reisoptie heeft gekozen.
+
+## Conclusie / reflectie (NOG AFMAKEN)
+Over het geheel gezien vond ik dit best een lastig vak. Het maken van de prototypes was, ondanks dat ik daar toch wel wat dagen zoet mee was, voor mij niet het moeilijkst. De moeilijkheid zat echter in het nadenken over de design principles en het goed laten testen van mijn prototype door Marijn. Ook had ik moeite met het gebrek aan duidelijkheid in de eerste paar dagen van dit vak. In de beschrijving stond kort waar Marijn behoefte aan had, welke beperking hij had en hoe hij interacteerde met zijn computer. Doordat ik in de eerste week niet genoeg rekening hield met de design principles, kwam ik er na de eerste ontmoeting achter dat mijn date picker nog niet goed genoeg was. Later leerde ik hiervan dat het helemaal niet erg is dat een prototype ook erg kan mislukken.
+
+
+
+- ik vond het zelf lastig om te communiceren met marijn. komt door (niet meer zoals vroeger) moeite met sociale contacten en zijn verstaanbaarheid hielp daar niet bij. Er was ook geen tolk.
+- wel erg interessant om te zien hoe andere mensen waar jij iets voor maakt met jouw prototype omgaan
+- vond het leuk om al die verrassende elementen (zelfde stationinvoer en bierflesjes) toe te voegen.
+- heb geleerd om een ontwerp prototype te maken waarbij zo min mogelijk utleg voor nodig is.
+
 
 ## Bronnen
 - https://wallpaper.dog/metal
