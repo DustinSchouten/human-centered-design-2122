@@ -48,7 +48,9 @@ Op donderdag 21 april hadden wij de eerste ontmoeting met Marijn vanuit Eindhove
 Vasilis is naar Marijn's huis gegaan en heeft een online vergadering met de studenten gestart. Hij heeft de camera van zijn laptop vervolgens gericht op het toetsenbord van Marijn's laptop, waardoor we konden zien hoe hij omgaat met zijn computer. Vervolgens hebben alle studenten één voor één hun gemaakte werk laten zien en een korte uitleg gegeven over het hoe en waarom. Verder hebben de studenten Marijn vooral zelf ons prototype laten testen. Wanneer Marijn feedback gaf over een prototype, vertaalde Vasilis wat hij duidelijk wilt maken. Deze manier van testen is prima verlopen.
 
 #### Plannen voor volgende week
-Voor komende week ga ik proberen om mijn eerder gemaakte date-picker, die uiteindelijk iets te algemeen bevonden werd, nog meer in te richten op de behoeften van Marijn. Ik had bijvoorbeeld een soort kalender gemaakt die achteraf helemaal niet nodig bleek te zijn. Ook gaf Marijn aan dat het weinig nut heeft om, als hij zo snel mogelijk een trein wilt nemen, tot op de minuut exact aan te kunnen geven hoe laat er een trein vertrekt. In plaats daarvan kwam al snel naar voren dat het handiger is om een aantal reisopties te geven.
+Doordat ik de opdracht in eerste instantie niet helemaal begrepen had, kwam ik aan met een data-picker die uiteindelijk veel te algemeen bevonden werd. Mijn voornaamste doel voor deze week is om de website een stuk meer in te richten op de behoeften van Marijn.
+
+Ook had ik bijvoorbeeld een soort kalender gemaakt waarin je verschillende maanden kon selecteren. Deze functionaliteit bleek achteraf helemaal niet nodig te zijn. Bovendien gaf Marijn aan dat het weinig nut heeft om, als hij zo snel mogelijk een trein wilt nemen, tot op de minuut exact aan te kunnen geven hoe laat er een trein vertrekt. In plaats daarvan kwam al snel naar voren dat het handiger is om een aantal reisopties te geven.
 
 Tijdens de tests van de andere studenten werd ook duidelijk dat Marijn soms per ongeluk de verkeerde toets indrukt. Daarom vond ik het een goed idee om het aantal benodigde interacties te beperken.
 
