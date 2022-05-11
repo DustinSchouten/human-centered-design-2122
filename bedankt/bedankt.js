@@ -31,8 +31,10 @@ const bier_images = ['amstel_bier_img','bavaria_bier_img','grolsch_bier_img','he
 class BierBottle {
     constructor() {
         this.position_X = Math.floor(Math.random()*(window.innerWidth-80))
-        this.position_Y = Math.floor(Math.random()*-2500 - 500);
-        this.valsnelheid = Math.floor(Math.random() * (10 - 7 + 1) + 7) // 10 is max speed, 5 is min speed
+        this.position_Y = Math.floor(Math.random()*-2000) - 1000;
+        this.min_speed = 7;
+        this.max_speed = 10;
+        this.valsnelheid = Math.floor(Math.random() * (this.max_speed - this.min_speed + 1) + this.min_speed);
     }
 }
 

@@ -5,22 +5,22 @@ let navigator_idx = 1;
 
 document.querySelector('.selectable[data-id="1"]').focus() // Default
 
-// window.addEventListener('mousedown',function(e) {
-//     if (isNaN(e.target.dataset.id) == false) { // If mouseclick targets on a selectable item;
-//         document.querySelector('.selectable[data-id="'+navigator_idx+'"]').classList.remove('selected');
-//         navigator_idx = e.target.dataset.id;
-//         document.querySelector('.selectable[data-id="'+navigator_idx+'"]').focus()
-//     }
-//     document.querySelector('.selectable[data-id="'+navigator_idx+'"]').classList.add('selected');
+window.addEventListener('mousedown',function(e) {
+    if (isNaN(e.target.dataset.id) == false) { // If mouseclick targets on a selectable item;
+        document.querySelector('.selectable[data-id="'+navigator_idx+'"]').classList.remove('selected');
+        navigator_idx = e.target.dataset.id;
+        document.querySelector('.selectable[data-id="'+navigator_idx+'"]').focus()
+    }
+    document.querySelector('.selectable[data-id="'+navigator_idx+'"]').classList.add('selected');
 
-//     if (isNaN(e.target.parentNode.parentNode.dataset.id) == false) { // If mouseclick targets on a selectable item;
-//         document.querySelector('.selectable[data-id="'+navigator_idx+'"]').classList.remove('selected');
-//         navigator_idx = e.target.parentNode.parentNode.dataset.id;
-//         document.querySelector('.selectable[data-id="'+navigator_idx+'"]').focus()
-//         kies_treinoptie()
-//     }
-//     document.querySelector('.selectable[data-id="'+navigator_idx+'"]').classList.add('selected');
-// })
+    if (isNaN(e.target.parentNode.parentNode.dataset.id) == false) { // If mouseclick targets on a selectable item;
+        document.querySelector('.selectable[data-id="'+navigator_idx+'"]').classList.remove('selected');
+        navigator_idx = e.target.parentNode.parentNode.dataset.id;
+        document.querySelector('.selectable[data-id="'+navigator_idx+'"]').focus()
+        kies_treinoptie()
+    }
+    document.querySelector('.selectable[data-id="'+navigator_idx+'"]').classList.add('selected');
+})
 
 function kies_treinoptie() {
     let final_datum = document.querySelector('#datum').value;

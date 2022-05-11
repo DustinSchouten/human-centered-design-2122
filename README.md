@@ -1,8 +1,18 @@
 # Date picker voor Marijn Meijles
-Dit project bestaat uit een interactieve toepassing die speciaal is ontworpen en ontwikkeld voor Marijn Meijles. Het betreft een date picker waarmee Marijn van tevoren kan aangeven welke trein hij wil nemen zodat er iemand is om hem te helpen met zijn rolstoel. Bij dit project is speciaal gelet op de beperkingen én interesses van Marijn. Bij dit project is enkel gebruikgemaakt van HTML, CSS en JavaScript.
+Dit project bestaat uit een interactieve toepassing die speciaal is ontworpen en ontwikkeld voor Marijn Meijles. Het betreft een date picker waarmee Marijn van tevoren kan aangeven welke trein hij wil nemen zodat er iemand is om hem te helpen met zijn rolstoel. Bij dit project is speciaal gelet op de beperkingen én interesses van Marijn. Bij dit project is enkel gebruikgemaakt van HTML, CSS en JavaScript. Er wordt, omdat het project slechts een prototype betreft, geen echte data opgehaald van de NS.
 
-## Wie is Marijn?
-text
+## User needs
+### Wie is Marijn?
+Marijn Meijles woont in Eindhoven, werkt in Amsterdam en kan worden gezien als een echte nerd. Hij weet alles van technologie en developen en gebruikt hiervoor zijn favoriete teksteditor VIM. Deze teksteditor vindt Marijn prettig om op zijn macbook te gebruiken omdat er bij deze veel shortcuts en dus minder handelingen nodig zijn tijdens het developen. Hier heeft Marijn behoefte aan omdat hij is geboren met een motorische stoornis en moeite heeft met fijne motoriek. Hij kan maar één hand tegelijk gebruiken (vandaar dat hij sticky keys gebruikt), en is afhankelijk van zijn toetsenbord en zijn trackpad. Verder heeft Marijn moeite om zich verstaanbaar te maken en zit hij in een rolstoel.
+
+Zijn interesses zijn bier drinken en als een echte nerd boeken lezen. Ook houdt hij erg van dark-mode in de stijl van Heavy Metal.
+
+### Over het product
+Het product dat ik voor Marijn gemaakt heb is een NS date picker. Hiermee kan hij aangeven welke trein hij wil nemen wanneer hij gaat reizen. Dit moet hij altijd ruim van tevoren doorgeven zodat er iemand van de NS is om hem te helpen met zijn rolstoel. Als hij vroeg in de ochtend naar zijn werk reist, moet hij dit de dag van tevoren al regelen. Wanneer hij op werk zit en van plan is weer naar huis te gaan, wil hij uiteraard zo snel mogelijk weer thuis zijn. Dit kan pas op zijn vroegst een uur van tevoren geregeld worden. Als hij een andere aangepaste reis wilt maken, hangt het meer af van het moment waarop Marijn de reis boekt en van de duur van de reis.
+
+Mijn gemaakte date picker is volledig via het toetsenbord te bedienen is. Doordat Marijn bekend is met VIM, had hij ook de voorkeur dat het product met de hjkl toetsen te bedienen is (en niet met de tab-toets die hij nooit gebruikt).
+
+Zijn wens voor een date picker komt voort uit het feit dat de website van de NS dusdanig ontworpen is dat hij het niet prettig vindt om deze te gebruiken.
 
 ## Verslaglegging van de tests
 ### Eerste testmoment
@@ -20,7 +30,7 @@ Op donderdag 21 april hadden wij de eerste ontmoeting met Marijn vanuit Eindhove
 ##### Over hoe Marijn interacteert met een computer
 - Marijn gebruikt vooral toetsen die dicht bij elkaar staan. Het woord 'ALS' is bijvoorbeeld lastig om te typen omdat de letter A helemaal links van het toetsenbord is, de L helemaal rechts en de S weer helemaal links.
 - Marijn geeft aan nooit gebruik te maken van de tab-toets.
-- In plaats van de pijltjestietsen gebruikt Marijn de H (naar links), J (naar beneden), K (naar boven) en L (naar rechts) om te bewegen (de controls te bedienen).
+- In plaats van de pijltjestoetsen gebruikt Marijn de H (naar links), J (naar beneden), K (naar boven) en L (naar rechts) om te bewegen (de controls te bedienen).
 - De pijltjestoetsen en de spatiebalk gebruikt Marijn voornamelijk om te scrollen.
 - Marijn kan zowel een toetsenbord als een trackpad gebruiken.
 - Wanneer Marijn zijn toetsenbord gebruikt, kijkt hij naar zijn toetsenbord en niet naar het scherm.
@@ -90,14 +100,14 @@ Verder kwamen wij studenten erachter dat Marijn het helemaal leuk vind om bij ie
 
 
 ## Conclusie manier van testen
-conclusie...
+conclusie
 
 ## Exclusive Design Principles
 ### Study situation
-
+In het kader van study situation vond ik het erg belangrijk om een product te maken waarbij Marijn in zo min mogelijk handelingen zijn treinreis van A naar B kan aangeven. Doordat Marijn vaak dezelfde treinreis neemt, namelijk van Eindhoven naar Amsterdam en weer terug, heb ik ervoor gekozen om deze treinreizen in één directe handeling op het scherm te tonen. In het kader van gebruikersinteractie heb ik de website volledig toegankelijk gemaakt met het toetsenbord, en in zijn specifieke situatie met de J- en de K-toets (afkomstig van VIM). Hierbij is het ook van belang dat Marijn het product gemakkelijk met één hand tegelijk kan bedienen.
 
 ### Prioritise identity
-
+Dit onderwerp valt naar mijn idee een beetje samen met add nonsense. Het doel van dit onderwerp is dat je aan de date picker echt goed kan zien voor wie het is gemaakt en dat je meteen doorkrijgt welke interesses deze persoon heeft. Marijn houdt bijvoorbeeld van een dark-mode stijl en van heavy metal. Ook het font dat voor de titel en subtitel gebruikt is, draagt bij aan de wat duistere stijl waar Marijn van houdt.
 
 ### Ignore conventions
 Bij het maken van websites moet er normaal gesproken rekening gehouden worden met allerlei verschillende groepen gebruikers. Hierbij hoor je je te houden aan een aantal conventies, waardoor zoveel mogelijk mensen jouw website zonder problemen kunnen gebruiken.
@@ -107,7 +117,9 @@ Doordat je hier slechts voor één specifiek persoon een website ontwikkelt, hoe
 
 - Doordat Marijn deze toepassing altijd op zijn laptop op een groot scherm gebruikt, is het niet nodig om de website responsive te maken voor kleinere schermen.
 
-- Dit onderwerp valt een beetje samen met add nonsense, maar zoals ik al eerder noemde, vindt Marijn het erg leuk om bugs op te sporen. Daarom heb ik expres een zogenaamde bug 'verstopt' (wel makkelijk te vinden) bij de pagina 'aangepaste reis'. Bij 'normale' gebruikers is het een goede gewoonte om gewoon een duidelijke foutmelding te geven.
+- Ook dit onderwerp valt een beetje samen met add nonsense, maar zoals ik al eerder noemde, vindt Marijn het erg leuk om bugs op te sporen. Daarom heb ik expres een zogenaamde bug 'verstopt' (wel makkelijk te vinden) bij de pagina 'aangepaste reis'. Bij 'normale' gebruikers is het een goede gewoonte om gewoon een duidelijke foutmelding te geven.
+
+Verder vond ik het voor Marijn niet echt noodzakelijk om veel andere aanpassingen te maken, omdat Marijn zelf ook erg veel weet van websites.
 
 ### Add nonsense 
 Ik had eerst het idee om een animatie van een rijdende trein te laten afspelen op het moment dat Marijn een reisoptie heeft gekozen. Later dacht ik dat dit wellicht toch iets te weinig met de interesses van Marijn te maken had en ook een beetje kinderachtig was.
