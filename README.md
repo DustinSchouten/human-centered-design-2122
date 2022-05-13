@@ -5,7 +5,7 @@ Het project is via deze link te bekijken: https://dustinschouten.github.io/human
 
 ## Table of Contents:
   * [User needs](#user-needs)
-    + [Wie is Marijn?](#wie-is-marijn-)
+    + [Wie is Marijn](#wie-is-marijn)
     + [Over het product](#over-het-product)
   * [Verslaglegging van de tests](#verslaglegging-van-de-tests)
     + [Eerste testmoment](#eerste-testmoment)
@@ -13,21 +13,21 @@ Het project is via deze link te bekijken: https://dustinschouten.github.io/human
       - [Bevindingen tijdens de ontmoeting en de test](#bevindingen-tijdens-de-ontmoeting-en-de-test)
         * [Over hoe Marijn interacteert met een computer](#over-hoe-marijn-interacteert-met-een-computer)
         * [Over de wensen en eisen van Marijn](#over-de-wensen-en-eisen-van-marijn)
-      - [De test-opzet](#de-test-opzet)
+      - [De testopzet](#de-testopzet)
       - [Plannen voor volgende week](#plannen-voor-volgende-week)
     + [Tweede testmoment](#tweede-testmoment)
       - [Bevindingen tijdens de ontmoeting en de test](#bevindingen-tijdens-de-ontmoeting-en-de-test-1)
-      - [De test-opzet](#de-test-opzet-1)
+      - [De testopzet](#de-testopzet-1)
       - [Plannen voor volgende week](#plannen-voor-volgende-week-1)
     + [Derde testmoment](#derde-testmoment)
       - [Bevindingen tijdens de ontmoeting en de test](#bevindingen-tijdens-de-ontmoeting-en-de-test-2)
-      - [De test-opzet](#de-test-opzet-2)
+      - [De testopzet](#de-testopzet-2)
   * [Exclusive Design Principles](#exclusive-design-principles)
     + [Study situation](#study-situation)
     + [Prioritise identity](#prioritise-identity)
     + [Ignore conventions](#ignore-conventions)
     + [Add nonsense](#add-nonsense)
-  * [Conclusie / reflectie](#conclusie---reflectie)
+  * [Conclusie](#conclusie)
   * [Bronnen](#bronnen)
 
 ## User needs
@@ -73,7 +73,7 @@ Op donderdag 21 april hadden wij de eerste ontmoeting met Marijn vanuit Eindhove
 - Marijn vindt het voldoende als hij een week vooruit kan plannen.
 - Marijn is een groot fan van Heavy Metal.
 
-#### De test-opzet
+#### De testopzet
 Vasilis is naar Marijn's huis gegaan en heeft een online vergadering met de studenten gestart. Hij heeft de camera van zijn laptop vervolgens gericht op het toetsenbord van Marijn's laptop, waardoor we konden zien hoe hij omgaat met zijn computer. Vervolgens hebben alle studenten één voor één hun gemaakte werk laten zien en een korte uitleg gegeven over het hoe en waarom. Verder hebben de studenten Marijn vooral zelf ons prototype laten testen. Wanneer Marijn feedback gaf over een prototype, vertaalde Vasilis wat hij duidelijk wilt maken. Deze manier van testen is prima verlopen.
 
 #### Plannen voor volgende week
@@ -113,7 +113,7 @@ Over mijn prototype kreeg ik de volgende schaarse feedback:
 - Marijn vond mijn werk er mooi uitzien, maar zei wel dat ik bepaalde pagina's nog moest afmaken.
 - Op zijn laptop werkte de ENTER toets niet bij 'Aangepaste reis' bij een paar invoervelden. Dit bleek achteraf makkelijk opgelost te worden.
 
-#### De test-opzet
+#### De testopzet
 Zoals ik al zei was er geen tolk waardoor de studenten moeite hadden met het verstaan van Marijn. Verder verliep het testen eigenlijk hetzelfde als bij de vorige test: de studenten vertelden in het kort wat zij hadden gemaakt en verder lieten wij Marijn op zijn eigen laptop de prototypes testen. De test was ditmaal niet online maar op school.
 
 #### Plannen voor volgende week
@@ -138,7 +138,7 @@ Ik had bij de pagina 'Van huis naar werk' het vroegste tijdstip op 08:00 uur gez
 
 Wanneer ik eventueel in de toekomst dit project verder uit zal werken, zal ik dus proberen om deze issue wel te verbeteren, zodat het voor Marijn logischer aanvoelt om door mijn pagina te navigeren. Wat ik ook nog in de toekomst zou kunnen doen, is het prototype koppelen aan de API van de NS, zodat de weergegeven reisopties overeenkomen met de werkelijkheid.
 
-#### De test-opzet
+#### De testopzet
 De testopzet was exact hetzelfde als bij de vorige ontmoeting. Alleen was Vasilis er dit keer wel bij.
 
 ## Exclusive Design Principles
