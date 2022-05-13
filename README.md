@@ -158,7 +158,7 @@ Doordat je hier slechts voor één specifiek persoon een website ontwikkelt, hoe
 
 - Ook dit onderwerp valt een beetje samen met add nonsense, maar zoals ik al eerder noemde, vindt Marijn het erg leuk om bugs op te sporen. Daarom heb ik expres een zogenaamde bug 'verstopt' (wel makkelijk te vinden) bij de pagina 'aangepaste reis'. Bij 'normale' gebruikers is het een goede gewoonte om gewoon een duidelijke foutmelding te geven. Dat is dus in dit geval een conventie die ik genegeerd heb.
 
-Verder vond ik het voor Marijn niet echt noodzakelijk om veel andere aanpassingen te maken, omdat Marijn zelf ook erg veel weet van websites.
+Verder vond ik het voor Marijn niet echt noodzakelijk om veel andere aanpassingen te maken, omdat ik heb gezien dat Marijn ondanks zijn beperkingen toch verbazingwekkend goed met websites om kan gaan.
 
 ### Add nonsense
 Ik had eerst het idee om een animatie van een rijdende trein te laten afspelen op het moment dat Marijn een reisoptie heeft gekozen. Later dacht ik dat dit wellicht toch iets te weinig met de interesses van Marijn te maken had en ook een beetje kinderachtig was.
