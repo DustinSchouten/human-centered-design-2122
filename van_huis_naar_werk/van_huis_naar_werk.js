@@ -56,12 +56,12 @@ window.onkeydown = function(e) {
 
 let current_time_vertrek = new Date();
 current_time_vertrek.setDate(current_time_vertrek.getDate() + 1); // Morgen is 1 dag later
-current_time_vertrek.setHours(8);
+current_time_vertrek.setHours(9);
 current_time_vertrek.setMinutes(0);
 
 let current_time_aankomst = new Date();
 current_time_aankomst.setDate(current_time_vertrek.getDate() + 1);
-current_time_aankomst.setHours(8);
+current_time_aankomst.setHours(9);
 current_time_aankomst.setMinutes(80); // Aankomst is 80 minuten later
 
 for (let idx=0; idx<6; idx++) {
