@@ -156,7 +156,7 @@ Doordat je hier slechts voor één specifiek persoon een website ontwikkelt, hoe
 
 - Doordat Marijn deze toepassing altijd op zijn laptop op een groot scherm gebruikt, is het niet nodig om de website responsive te maken voor kleinere schermen.
 
-- Ook dit onderwerp valt een beetje samen met add nonsense, maar zoals ik al eerder noemde, vindt Marijn het erg leuk om bugs op te sporen. Daarom heb ik expres een zogenaamde bug 'verstopt' (wel makkelijk te vinden) bij de pagina 'aangepaste reis'. Bij 'normale' gebruikers is het een goede gewoonte om gewoon een duidelijke foutmelding te geven.
+- Ook dit onderwerp valt een beetje samen met add nonsense, maar zoals ik al eerder noemde, vindt Marijn het erg leuk om bugs op te sporen. Daarom heb ik expres een zogenaamde bug 'verstopt' (wel makkelijk te vinden) bij de pagina 'aangepaste reis'. Bij 'normale' gebruikers is het een goede gewoonte om gewoon een duidelijke foutmelding te geven. Dat is dus in dit geval een conventie die ik genegeerd heb.
 
 Verder vond ik het voor Marijn niet echt noodzakelijk om veel andere aanpassingen te maken, omdat Marijn zelf ook erg veel weet van websites.
 
