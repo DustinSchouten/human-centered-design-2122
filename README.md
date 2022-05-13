@@ -5,7 +5,7 @@ Het project is via deze link te bekijken: https://dustinschouten.github.io/human
 
 ## Table of Contents:
   * [User needs](#user-needs)
-    + [Wie is Marijn?](#wie-is-marijn-)
+    + [Wie is Marijn?](#wie-is-marijn?)
     + [Over het product](#over-het-product)
   * [Verslaglegging van de tests](#verslaglegging-van-de-tests)
     + [Eerste testmoment](#eerste-testmoment)
