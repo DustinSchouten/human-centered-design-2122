@@ -65,7 +65,7 @@ Op donderdag 21 april hadden wij de eerste ontmoeting met Marijn vanuit Eindhove
 - Wanneer Marijn zijn toetsenbord gebruikt, kijkt hij naar zijn toetsenbord en niet naar het scherm.
 
 ##### Over de wensen en eisen van Marijn
-- Marijn moet altijd een uur van tevoren de trein reserveren. 
+- Marijn moet altijd een uur van tevoren de trein reserveren.
 - Zijn vaste route is van Eindhoven (woonplaats) naar Amsterdam (werk). Als hij de trein naar Amsterdam neemt, moet hij die de dag van tevoren plannen. Als hij weer terug naar Eindhoven gaat, wil Marijn die zo snel mogelijk kunnen nemen. Dit geldt ook voor als Marijn ergens anders dan naar zijn werk gaat.
 - Zijn trein gaat eenmaal in het kwartier.
 - Marijn vindt het handig als er van tevoren al wat reisopties klaargezet worden als hij van tevoren weet hoe laat hij wilt gaan reizen.
@@ -160,7 +160,7 @@ Doordat je hier slechts voor één specifiek persoon een website ontwikkelt, hoe
 
 Verder vond ik het voor Marijn niet echt noodzakelijk om veel andere aanpassingen te maken, omdat Marijn zelf ook erg veel weet van websites.
 
-### Add nonsense 
+### Add nonsense
 Ik had eerst het idee om een animatie van een rijdende trein te laten afspelen op het moment dat Marijn een reisoptie heeft gekozen. Later dacht ik dat dit wellicht toch iets te weinig met de interesses van Marijn te maken had en ook een beetje kinderachtig was.
 Tijdens de eerste twee tests kwam naar voren dat Marijn van bier en van boeken houdt, en dat hij verder niet veel hobby's heeft doordat Marijn het regelmatig druk heeft. Omdat ik zelf ook van bier houd, leek het me leuk om allemaal vallende bierflesjes te laten zien als Marijn een reisoptie heeft gekozen.
 
